@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daleste Official - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      overflow-x: hidden;
+    }
+
+    .container {
+      background: radial-gradient(circle at top left, #1f1f1f, #121212);
+      border-radius: 20px;
+      padding: 3rem;
+      box-shadow: 0 0 40px rgba(0, 255, 213, 0.15);
+      text-align: center;
+      max-width: 850px;
+      width: 100%;
+      animation: fadeIn 1.2s ease-out;
+      transition: all 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 25px rgba(0, 255, 213, 0.2);
+      animation: float 3s ease-in-out infinite;
+      border: 3px solid #00ffd5;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    h1 {
+      margin-top: 1.2rem;
+      font-size: 2.8rem;
+      color: #00ffd5;
+      text-shadow: 0 0 6px #00ffd5;
+    }
+
+    p {
+      margin-top: 1.2rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #bbb;
+    }
+
+    .social-links {
+      margin-top: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      animation: fadeIn 2s ease-in;
+      width: 100%;
+    }
+
+    .social-links a {
+      color: #00ffd5;
+      font-size: 1rem;
+      padding: 0.8rem 2rem;
+      width: 100%;
+      max-width: 320px;
+      background: linear-gradient(145deg, #181818, #222);
+      border: 1px solid #00ffd5;
+      border-radius: 14px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+
+    .social-links a:hover {
+      background: #00ffd5;
+      color: #121212;
+      box-shadow: 0 0 12px rgba(0, 255, 213, 0.5);
+      transform: translateY(-3px);
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #222;
+      padding-top: 1.5rem;
+      text-align: center;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .container {
+        padding: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="profile-img" src="https://i.ibb.co/YTKkpHYX/Profile-Picture.jpg" alt="Foto de perfil">
+    <h1>Daleste Official</h1>
+    <p>
+      Sou Daleste. Criador digital com uma pegada única, focado em tecnologia, estilo e originalidade. Acredito em ideias autênticas, design com propósito e conexões reais. Este é o meu espaço para compartilhar projetos, visão e atitude — tudo isso com um toque dark, minimalista e profissional.
+    </p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/dalesteofficial2050?igsh=MWthd2oyN3A1b295Yw==" title="Instagram">Instagram</a>
+      <a href="http://t.me/DalesteOfficial" title="Telegram">Telegram</a>
+      <a href="https://discord.gg/8WRjPuZA" title="Discord">Discord</a>
+      <a href="https://www.reddit.com/u/DarkDevOfx/s/LxRnvdxCzJ" title="Reddit">Reddit</a>
+      <a href="https://x.com/DeggoYellowSton?t=qW3nFgGFC0KsPXxUJOLkjw&s=09" title="X">X</a>
+      <a href="https://www.threads.net/@dalesteofficial2050" title="Threads">Threads</a>
+      <a href="https://github.com/DalesteOfficial" title="GitHub">GitHub</a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Daleste Official. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
